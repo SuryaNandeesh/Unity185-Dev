@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 80debb3aceaaa9e4f826324bc2385593
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - titleUI: {instanceID: 0}
+  - speedUI: {instanceID: 0}
+  - timerUI: {instanceID: 0}
+  - healthUI: {instanceID: 0}
+  - health: {fileID: 11400000, guid: 9d917f4635571384f9884d46ec995983, type: 2}
+  - scoreEvent: {fileID: 11400000, guid: 84faac0ab864181448d5c8d7ceb2b93c, type: 2}
+  - gamestartEvent: {fileID: 11400000, guid: 24cc7224d7b544d468a7ceefaa4db63b, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
