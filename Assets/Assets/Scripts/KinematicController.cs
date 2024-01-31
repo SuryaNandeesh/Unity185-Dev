@@ -2,9 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class KinematicController : MonoBehaviour
+public class KinematicController : MonoBehaviour, IDamagable
 {
     [SerializeField, Range(0, 40)] float speed = 1f;
+
+    public float health = 100;
+
+    public void ApplyDamage(float damage)
+    {
+        health -= damage;
+    }
 
     // Update is called once per frame
     void Update()
@@ -17,7 +24,7 @@ public class KinematicController : MonoBehaviour
         Vector3 force = direction * speed * Time.deltaTime;
         transform.localPosition += force;
 
-
+        //transform.localPosition
 
     }
 }
